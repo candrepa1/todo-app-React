@@ -1,0 +1,16 @@
+html {
+    font-size: 62.5%;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cfc19b;
+    padding: 20px;
+}
+
+input:checked + label {
+    text-decoration: line-through;
+}
